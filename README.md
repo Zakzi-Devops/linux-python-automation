@@ -38,9 +38,9 @@ python script.py
 bash script.sh
 
 📂 Output
-health_report.txt → Python-generated report
-system_report.log → Bash-generated system report
+- health_report.txt → Python-generated report
+- system_report.log → Bash-generated system report
 
 📌 Notes
-Log files are excluded using .gitignore
-Designed as a beginner DevOps automation project
+- Log files are excluded using .gitignore
+- Designed as a beginner DevOps automation project
