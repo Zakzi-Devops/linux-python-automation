@@ -44,3 +44,4 @@ bash script.sh
 📌 Notes
 - Log files are excluded using .gitignore
 - Designed as a beginner DevOps automation project
+- Tested in WSL (Ubuntu 22.04) for real Linux environment
