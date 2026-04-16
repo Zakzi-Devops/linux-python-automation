@@ -47,7 +47,7 @@ if __name__ == "__main__":
     for x in api_list:
         result = check_api(x)
         api_results.append(result)
-        print(result)
+       #print(result)
 
     print("=== System Info ===")
     for key, value in system_info.items():
