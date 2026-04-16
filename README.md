@@ -30,18 +30,18 @@ A DevOps-focused project using Python and Bash for system checks, automation, an
 ## ▶️ How to Run
 
 ### Python
-
+```bash
 python script.py
- 
+``` 
 ### Bash
-
+```bash
 bash script.sh
-
-📂 Output
+```
+### 📂 Output
 - health_report.txt → Python-generated report
 - system_report.log → Bash-generated system report
 
-📌 Notes
+### 📌 Notes
 - Log files are excluded using .gitignore
 - Designed as a beginner DevOps automation project
 - Tested in WSL (Ubuntu 22.04) for real Linux environment
