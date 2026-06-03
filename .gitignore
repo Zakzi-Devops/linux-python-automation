@@ -1,2 +1,3 @@
 *.log
 health_report.txt
+.venv/
