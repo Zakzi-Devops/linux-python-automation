@@ -43,6 +43,12 @@ linux-python-automation/
 
 ### Python
 ```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 python script.py
 ``` 
 ### Bash
@@ -65,6 +71,8 @@ Success: True
 ```
 
 ### 📌 Notes
+- Activate the `.venv` environment before running `python script.py`
+- Use `requirements.txt` to install Python dependencies before running the script
 - Log files are excluded using .gitignore
 - Designed as a beginner DevOps automation project
 - Tested in WSL (Ubuntu 22.04) for real Linux environment
