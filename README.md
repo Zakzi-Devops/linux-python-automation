@@ -27,6 +27,18 @@ A DevOps-focused project using Python and Bash for system checks, automation, an
 - Output redirection (`/dev/null`)
 - Basic monitoring concepts
 
+## 📂 Project Structure
+
+```text
+linux-python-automation/
+├── script.py
+├── script.sh
+├── health_report.txt
+├── system_report.log
+├── requirements.txt
+└── README.md
+```
+
 ## ▶️ How to Run
 
 ### Python
@@ -38,8 +50,19 @@ python script.py
 bash script.sh
 ```
 ### 📂 Output
-- health_report.txt → Python-generated report
-- system_report.log → Bash-generated system report
+
+- Python-generated report
+- Bash-generated system report
+
+## 📊 Sample Output
+
+```text
+=== API Check ===
+
+URL: https://api.github.com
+Status Code: 200
+Success: True
+```
 
 ### 📌 Notes
 - Log files are excluded using .gitignore
